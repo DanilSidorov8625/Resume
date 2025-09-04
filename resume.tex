@@ -1,0 +1,147 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  \textbf{\Huge \scshape Danil Sidorov} \\ \vspace{1pt}
+  \small 732-856-4305 $|$ \href{mailto:danilsidorov8625@gmail.com}{\underline{danilsidorov8625@gmail.com}} $|$ 
+  \href{https://linkedin.com/in/danil-sidorov-844109217/}{\underline{linkedin.com/in/danil-sidorov-844109217}} $|$
+  \href{https://github.com/DanilSidorov8625}{\underline{github.com/DanilSidorov8625}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Pennsylvania State University}{State College, PA}
+    {B.S. in Computer Science, GPA: 3.89}{Aug 2021 -- May 2025}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Full Stack Software Developer (Freelance)}{July 2022 -- Present}
+    {PEX}{Remote}
+    \resumeItemListStart
+      \resumeItem{Engineered and maintained a cross-platform logistics application using React Native, serving over 5,000 monthly users by integrating with a legacy PHP backend via a modular API layer.}
+      \resumeItem{Developed key features including a barcode scanning system that reduced manual data entry errors by 95\%, role-based access control (RBAC), and automated CSV/email exports.}
+      \resumeItem{Implemented a RAG-based AI support chatbot using vector search, which successfully automated responses for 30\% of common customer inquiries and provided Russian localization (i18n).}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Network Engineer}{June 2025 -- Present}
+    {Verizon}{Basking Ridge, NJ}
+    \resumeItemListStart
+      \resumeItem{Collaborated with stakeholders to define requirements and technical specifications for internal software enhancements, translating business needs into actionable development tasks.}
+      \resumeItem{Analyzed backend APIs, frontend UI, and data workflows to identify bottlenecks, contributing to a 15\% improvement in overall ticket resolution times for critical internal applications.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Computer Science Intern (2 summers)}{Summers 2022 \& 2023}
+    {Verizon}{Basking Ridge, NJ}
+    \resumeItemListStart
+      \resumeItem{Built dashboards using Splunk, Tableau, and Python, improving customer order problem resolution by 26\% (from 27 to 20 days).}
+      \resumeItem{Developed an ML model to classify ticket types with 92\% accuracy, decreasing average ticket resolution time by 17\%.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Private eBay Seller}{2019 -- 2023}
+    {Self-employed}{Remote}
+    \resumeItemListStart
+      \resumeItem{Operated a private eBay store, managing product sourcing, multi-party negotiations, and international logistics for technology and collectible items.}
+      \resumeItem{Achieved \$145K in gross revenue over four years through strategic pricing and market analysis.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{One Million Images} $|$ \emph{Vanilla JS, Node.js, Socket.io, Redis, SQLite, R2}}{2024}
+    \resumeItemListStart
+        \resumeItem{Developed a massively multiplayer web application featuring a 1000x1000 grid where users can permanently upload images to a shared, zoomable canvas.}
+        \resumeItem{Engineered a custom tile-based rendering system to efficiently display portions of the grid, ensuring smooth panning and zooming with minimal client-side resource usage.}
+        \resumeItem{Utilized Socket.io for real-time grid updates, Redis for high-speed caching of image metadata, and Cloudflare R2 for low-cost, high-availability object storage.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages}{: Python, C, JavaScript, SQL, HTML/CSS} \\
+    \textbf{Frameworks}{: React Native, Node.js, Flask, Next.js, Express, Tailwind, Deno} \\
+    \textbf{Developer Tools}{: Git, Docker, Google Cloud, Firebase, VS Code, Splunk, Tableau} \\
+    \textbf{Databases}{: SQLite, PostgreSQL, Redis} \\
+    \textbf{Libraries}{: Redux, Chart.js, Sentry, Jest}
+  }}
+\end{itemize}
+
+%-----------AWARDS-----------
+\section{Awards}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{Dean's List (every semester), Penn State Discover Award (\$4,000/year), Penn State Commonwealth Award (\$2,000/year), Verizon (Recognizing You) Performance Award (\$500)}}
+\end{itemize}
+
+\end{document}
