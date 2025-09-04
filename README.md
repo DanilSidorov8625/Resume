@@ -3,7 +3,7 @@
 This repository contains the LaTeX source code for my professional resume. I maintain this as a living document to track my experience, projects, and skills as I grow as a software developer.
 
 You can view the most up-to-date version of my resume here:
-[**danilsidorov.dev/resume.pdf**](https://danilsidorov.dev/resume.pdf) (change this to your actual link)
+[**resume**](https://github.com/DanilSidorov8625/Resume/blob/main/resume.pdf)
 
 ---
 
