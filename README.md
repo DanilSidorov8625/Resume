@@ -18,4 +18,5 @@ You can view the most up-to-date version of my resume here:
 
 This resume is crafted with **LaTeX**, a powerful document preparation system. I chose LaTeX for its professional typography, precise control over formatting, and ability to generate a clean, elegant PDF.
 
-If you have any questions or would like to connect, feel free to reach out to me on [LinkedIn](https://linkedin.com/in/danil-sidorov/).
+If you have any questions or would like to connect, feel free to reach out to me on [LinkedIn](https://linkedin.com/in/danil-sidorov-844109217/).
+
